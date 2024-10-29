@@ -6,5 +6,5 @@ public interface DataReader {
 
   Stream<String> fetchLimitadData(int limit);
 
-  Stream<String> fetchFullData();
+  Stream<String> fetchFullData(int limit);
 }
